@@ -12,6 +12,15 @@ public class Main {
 
     static Scanner scanner = new Scanner(System.in);
     static Random random = new Random();
+<<<<<<< Updated upstream
+=======
+
+    /**
+     * Description : Main menu used to navigate and call through different methods in the Main class.
+     * @param args : null, nothing is passed!
+     * @return: N/A
+     */
+>>>>>>> Stashed changes
     public static void main(String[] args) {
         System.out.println("Choose the game you want to play 1. Guessing Game, 2. Rock-Paper-Scissors, 3.Exit");
 
