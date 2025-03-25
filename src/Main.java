@@ -12,6 +12,12 @@ public class Main {
 
     static Scanner scanner = new Scanner(System.in);
     static Random random = new Random();
+
+    /**
+     * Description : Main menu used to navigate & call through different methods in the Main class.
+     * @param args : null, nothing is passed!
+     * @return: N/A
+     */
     public static void main(String[] args) {
         System.out.println("Choose the game you want to play 1. Guessing Game, 2. Rock-Paper-Scissors, 3.Exit");
 
@@ -33,7 +39,7 @@ public class Main {
     public static void guess_Game(){
 
         int tries = 5;
-        System.out.println("I'm thinking of a numb3r between 1-150");
+        System.out.println("I'm thinking of a number between 1-150");
         System.out.println("guess what it is?, you get 5 tries");
 
         int computer_random = random.nextInt(101);
